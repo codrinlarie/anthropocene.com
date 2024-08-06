@@ -1,0 +1,106 @@
+body {
+    font-family: 'Old Standard TT', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1e8;
+    color: #222;
+}
+header {
+    background-color: #222;
+    color: #f4f1e8;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 3px double #888;
+}
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+header p {
+    font-style: italic;
+    margin: 0;
+}
+.sub-header {
+    display: flex;
+    background-color: #ddd;
+    padding: 10px 20px;
+    border-bottom: 1px solid #888;
+}
+nav {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav a {
+    color: #222;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-right: 1px solid #888;
+    font-weight: bold;
+}
+nav a:last-child {
+    border-right: none;
+}
+.auth-buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.auth-buttons button {
+    background-color: #222;
+    color: #f4f1e8;
+    border: 1px solid #888;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Old Standard TT', serif;
+    font-size: 0.9rem;
+}
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.article {
+    background-color: #fff;
+    border: 1px solid #888;
+    padding: 15px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+}
+.article h2 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    color: #222;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #888;
+    padding-bottom: 5px;
+}
+.article a {
+    text-decoration: none;
+    color: inherit;
+}
+.article-content {
+    display: none;
+    font-size: 0.9rem;
+}
+.expand-btn {
+    background-color: #222;
+    color: #f4f1e8;
+    border: 1px solid #888;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Old Standard TT', serif;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
